@@ -1,0 +1,14 @@
+package hariom;
+import java.util.Scanner;
+public class three {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("===== THREE =====");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        int average = (a+b+c)/3;
+        System.out.print("Average: " + average);
+        sc.close();
+    }
+}
